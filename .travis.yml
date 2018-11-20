@@ -16,6 +16,9 @@ jobs:
       jdk: openjdk11
       addons:
         mariadb: '10.2'
+<<<<<<< HEAD
+>>>>>>> 27eef47... Add task for migrating databases
+=======
 >>>>>>> 27eef47... Add task for migrating databases
       install: skip
       before_script:
