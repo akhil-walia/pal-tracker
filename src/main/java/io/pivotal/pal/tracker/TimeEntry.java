@@ -1,4 +1,4 @@
-package io.pivotal.pal.trackerapi;
+package io.pivotal.pal.tracker;
 
 import java.time.LocalDate;
 import java.util.Objects;
