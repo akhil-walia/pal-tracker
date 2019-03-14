@@ -20,7 +20,8 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
     @Override
     public TimeEntry delete(long timeEntryId) {
-        return map.remove(timeEntryId);
+        TimeEntry TimeEntry =  map.remove(timeEntryId);
+        return null;
     }
 
     @Override
